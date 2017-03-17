@@ -1,0 +1,106 @@
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	max-width: 1280px;
+	height: 900px;
+	}
+	// HEADER
+	.header{
+		position: relative;
+		
+		// FON FON FON FON
+		// FON FON FON FON
+		// FON FON FON FON
+		.wraper-bg{
+			display: block;
+		position: relative;	
+		height: 865px;
+		background-image: url('../img/bg-shade.png');
+		z-index: -1;
+			.bg-shadow{
+			height: 865px;
+			background-image: url('../img/bg-shades1.png');
+		}
+	}
+	//BLUE HEADER BLOCK BLUE HEADER BLOCK BLUE HEADER BLOCK
+	//BLUE HEADER BLOCK BLUE HEADER BLOCK BLUE HEADER BLOCK
+		.header-blue_block{
+		// display: block;
+		position: relative;
+		bottom: 900px;
+		margin: 5px auto;
+		width: 966px;
+		height: 106px;
+		z-index: 99;
+		background-color: #4cb2e7;
+		-webkit-border-radius: 7px;
+		        border-radius: 7px;
+		-webkit-transform: rotate(357deg);
+		   -moz-transform: rotate(357deg);
+		    -ms-transform: rotate(357deg);
+		     -o-transform: rotate(357deg);
+		        transform: rotate(358deg);
+			ul{
+				display: flex;
+				position: relative;
+				width: 58%;
+				top: 60%;
+				left:32%;
+				text-align: right;
+				-webkit-justify-content: space-between;
+				        justify-content: space-between;
+				-webkit-transform: rotate(362deg);
+		   -moz-transform: rotate(362deg);
+		    -ms-transform: rotate(362deg);
+		     -o-transform: rotate(362deg);
+		        transform: rotate(362deg);	
+			}	
+				.menu-list li {
+					float: left;
+					list-style: none;
+					margin-left: 7px;
+				}
+	}
+	//LOGO TEXT1 TEXT2 COLOR GRAY BORDER WHITE
+	//LOGO TEXT1 TEXT2 COLOR GRAY BORDER WHITE
+	.header-logo{
+		position: absolute;
+		left: 10px;
+		top:-2em;
+		max-width: 278px;
+		height: 158px;
+		color: #e1ecf2;
+		border:6px solid white;
+		-webkit-border-radius: 25px;
+		        border-radius: 25px;
+		-moz-transform: rotate(356deg);
+		    -ms-transform: rotate(356deg);
+		     -o-transform: rotate(356deg);
+		        transform: rotate(356deg);	
+		.header-logo-text {
+			position: relative;
+			top: 3em;
+			left: 1em;
+			h1{
+				font-size: 2em;	
+				
+				
+			}
+		}
+	}
+	
+
+// width:90%;
+// max-width:1080px;
+// margin-left:auto;
+// margin-right:auto
+
+
+
+	}

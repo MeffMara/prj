@@ -10,41 +10,68 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <!-- Place favicon.ico in the root directory -->
-
+    <!--/*<script type="text/javascript" src="js/main.js"></script>*/-->
+    <!--<script src="js/script.js"></script>-->
     <link rel="stylesheet" href="js/bstrap3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="js/bstrap3.7/css/bootstrap-theme.min.css">
+
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="http://cask.scotch.io/bootstrap-4.0-flex.css">
     <link rel="stylesheet" href="css/style.css">
+
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+
 </head>
 
 <body>
     <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
+            <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="bg-layer1"></div>
-    <div class="conteiner-fluid">
-        <header>
-            <div class="header-logo">
-                <h1>Kids Football School</h1>
-                <h6>Slagan na angliskom Slagan</h6>
+    <div class="bg-layer1">
+        <div class="conteiner">
+            <header class="header">
+                <div class="header-logo">
+                    <h1>Kids Football School</h1>
+                    <h6>Slagan na angliskom Slagan</h6>
+                </div>
+                <div class="header-menu">
+
+                    <ul class="menu-lists">
+                        <li class="menu-list"><a href="#">For As</a></li>
+                        <li class="menu-list"><a href="#">Photo</a> </li>
+                        <li class="menu-list"><a href="#">Training</a></li>
+                        <li class="menu-list"><a href="#">Contacts</a></li>
+                        <li class="menu-list"><a href="#">F.A.Q.</a></li>
+                    </ul>
+
+                </div>
+
+            </header>
+            <div id="main">
+                <button class="left" onClick="slider.left();"><</button>
+                <div id="scr"></div>
+                <button class="right" onClick="slider.right();">></button>
+
+
             </div>
-            <div class="header-menu"></div>
-        </header>
+        </div>
     </div>
 
     <div id="hidden">
         <p class="hidden">Абзац!!!</p>
     </div>
+    <script type="text/javascript" src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
     <script>
         window.jQuery || document.write('<script src="js/vendor/jquery-1.12.0.min.js"><\/script>')
     </script>
     <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+
+
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>

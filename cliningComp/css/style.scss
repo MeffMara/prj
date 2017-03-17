@@ -1,0 +1,116 @@
+
+$breakpoint-tablet: 768px;
+$breakpoint-desctop: 980px;
+
+
+html {
+	height: 100%;
+	width: 100%;
+	}
+body
+	height: 100%;
+	width: 100%;
+
+.bg-layer1{
+		background-image: url('../img/soccer.jpg');
+		width: 1100px;
+		height: 900px;
+}
+
+header{
+	display: flex;
+	.header-logo{
+		border: 8px solid blue;
+		.header-logo:hover{
+		transform: -moz-transform: rotate(15deg); /* Для Firefox */
+    	-ms-transform: rotate(43deg); /* Для IE */
+    	-webkit-transform: rotate(43deg); /* Для Safari, Chrome, iOS */
+    	-o-transform: rotate(49deg); /* Для Opera */
+    	transform: rotate(48deg);
+		}
+	}
+	@media (min-width: $breakpoint-desctop){
+		h1{
+			font-size: 2.8rem;
+			color: black;
+	}
+	}
+ 
+.header-logo{
+	@media (min-width: $breakpoint-tablet) {
+	  h1 {
+  		font-size: 2.2rem;
+  }
+}	
+}
+	
+	.header-menu{
+		width: 70%;
+	}
+
+}
+
+.menu-lists{
+	display: flex;
+	padding: 0;
+	margin: 0;
+	justify-content: space-around;
+	justify-content: space-around;
+	.menu-list{
+		width: 88px;
+		list-style: none;
+		a{
+			font-family: 'Open-sans';
+			font-size: 18px;
+			text-decoration: none;
+			text-transform: uppercase;
+			
+			}
+			:hover{
+				color: white;
+				border-bottom: 2px solid green;
+		}
+	}
+}
+$breakpoint-tablet: 768px;
+@media (min-width: $breakpoint-tablet) {
+  
+}
+
+
+#main{
+	position:relative;
+	margin: 30px auto;
+	padding: 5px;
+	width: 660px;
+	height:360px;
+	background-color: silver;
+	border: 5px solid grey;
+	border-radius:15px;
+		button{
+			position: absolute;
+			top: 150px;
+			width: 25px;
+			height: 70px;
+			font: 12pt arial,tahoma,sans-serif;
+			text-align: center;
+		}
+	.left {
+		left:0px;
+				}
+	.right {
+		right: 0px;
+				}
+	
+ 	#scr{
+ 		margin:20px auto;
+		width: 600px;
+		height: 320px;
+		margin-top:20px;
+		background-color: white;
+		background-size:cover;
+		border: 2px solid black;
+		border-radius:10px;
+ 	}
+ 
+}
