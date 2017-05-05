@@ -8,32 +8,28 @@
 
 body{
 	max-width: 1280px;
-	height: 900px;
+	height: auto;
 	}
 	// HEADER
-	.header{
-		position: relative;
-		
-		// FON FON FON FON
-		// FON FON FON FON
-		// FON FON FON FON
-		.wraper-bg{
-			display: block;
-		position: relative;	
-		height: 865px;
-		background-image: url('../img/bg-shade.png');
-		z-index: -1;
-			.bg-shadow{
-			height: 865px;
-			background-image: url('../img/bg-shades1.png');
-		}
+.header{
+	background-image: url('../img/bg-shade.png');
+	width: 100%;
+	height: 1000px;
+	
+	// FON FON FON FON
+	// FON FON FON FON
+	// FON FON FON F
 	}
+	.bg-shadow{
+		height: 150px;
+		background-image: url('../img/bg-shades1.png');
+		}
 	//BLUE HEADER BLOCK BLUE HEADER BLOCK BLUE HEADER BLOCK
 	//BLUE HEADER BLOCK BLUE HEADER BLOCK BLUE HEADER BLOCK
 		.header-blue_block{
 		// display: block;
 		position: relative;
-		bottom: 900px;
+		bottom: 20%;
 		margin: 5px auto;
 		width: 966px;
 		height: 106px;
@@ -70,9 +66,9 @@ body{
 	//LOGO TEXT1 TEXT2 COLOR GRAY BORDER WHITE
 	//LOGO TEXT1 TEXT2 COLOR GRAY BORDER WHITE
 	.header-logo{
-		position: absolute;
+		// position: absolute;
 		left: 100px;
-		top:-2em;
+		// top:-2em;
 		max-width: 295px;
 		height: 158px;
 		background-color:#e1ecf2;
@@ -99,39 +95,54 @@ body{
 	}
 	
 
-}
+
 
 .airplane {
-    position: absolute;
-    top: 14%;
-    height: 590px;
-    background-repeat: no-repeat;
-    width: 100%;
+   
+   
+   width: 100%;
+   height: 100%;
     .airplane-cloud{
     	background-image: url('../img/cloud-header.png');
     	background-repeat: no-repeat;
-    	background-position: 20% 0% ;
+    	background-position: 24% 4% ;
     	width: 100%;
     	height: 100%;
-		 .airplane-img{
-		 	display: block;
+		 		.airplane-img{
 		 	float: left;
 		 	background-image: url(../img/airplane.png);
 		 	background-repeat: no-repeat;
-		 	background-position: 1% 6%;
-		 	width: 32%;
+		 	background-position: 5% 6%;
+		 	width: 100%;
 		 	height: 100%;
 		}	
-		.airplane-text{
-				float: left;
-				position: relative;
-				top: 20%;
-				h1{
-					font-size: 50px;
-				}
-			}	
-
+				.airplane-text{
+			position: relative;
+			display: block;
 			
-		
+			float: left;
+			left: -2%;
+			top: -10%;
+					h1{
+				font-size: 61px;
+				font-family: 'Permanent Marker';
+				line-height: 50px;
+				color: #127EA5;
+			}
+					h4{margin-top: 10px;
+				color: #DED90E;
+				text-align: center;
+				line-height: 30px;
+				}
+			}			
 	}
+
 }
+.booking-board{
+	float: right;
+	width: 308px;
+	height: 530px;
+	-webkit-border-radius: 17px;
+	border-radius: 17px;
+	border: 6px solid #7ebee0;
+	}

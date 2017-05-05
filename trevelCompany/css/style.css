@@ -5,102 +5,113 @@
 
 body {
   max-width: 1280px;
-  height: 900px; }
+  height: auto; }
 
 .header {
-  position: relative; }
-  .header .wraper-bg {
-    display: block;
+  background-image: url("../img/bg-shade.png");
+  width: 100%;
+  height: 1000px; }
+
+.bg-shadow {
+  height: 150px;
+  background-image: url("../img/bg-shades1.png"); }
+
+.header-blue_block {
+  position: relative;
+  bottom: 20%;
+  margin: 5px auto;
+  width: 966px;
+  height: 106px;
+  z-index: 0;
+  background-color: #4cb2e7;
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+  -webkit-transform: rotate(357deg);
+  -moz-transform: rotate(357deg);
+  -ms-transform: rotate(357deg);
+  -o-transform: rotate(357deg);
+  transform: rotate(358deg); }
+  .header-blue_block ul {
+    display: flex;
     position: relative;
-    height: 865px;
-    background-image: url("../img/bg-shade.png");
-    z-index: -1; }
-    .header .wraper-bg .bg-shadow {
-      height: 865px;
-      background-image: url("../img/bg-shades1.png"); }
-  .header .header-blue_block {
+    width: 58%;
+    top: 60%;
+    left: 32%;
+    text-align: right;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    -webkit-transform: rotate(362deg);
+    -moz-transform: rotate(362deg);
+    -ms-transform: rotate(362deg);
+    -o-transform: rotate(362deg);
+    transform: rotate(362deg); }
+  .header-blue_block .menu-list li {
+    float: left;
+    list-style: none;
+    margin-left: 7px; }
+
+.header-logo {
+  left: 100px;
+  max-width: 295px;
+  height: 158px;
+  background-color: #e1ecf2;
+  z-index: 1;
+  color: RGB(42, 160, 200);
+  border: 6px solid white;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  -moz-transform: rotate(356deg);
+  -ms-transform: rotate(356deg);
+  -o-transform: rotate(356deg);
+  transform: rotate(356deg); }
+  .header-logo .header-logo-text {
     position: relative;
-    bottom: 900px;
-    margin: 5px auto;
-    width: 966px;
-    height: 106px;
-    z-index: 0;
-    background-color: #4cb2e7;
-    -webkit-border-radius: 7px;
-    border-radius: 7px;
-    -webkit-transform: rotate(357deg);
-    -moz-transform: rotate(357deg);
-    -ms-transform: rotate(357deg);
-    -o-transform: rotate(357deg);
-    transform: rotate(358deg); }
-    .header .header-blue_block ul {
-      display: flex;
-      position: relative;
-      width: 58%;
-      top: 60%;
-      left: 32%;
-      text-align: right;
-      -webkit-justify-content: space-between;
-      justify-content: space-between;
-      -webkit-transform: rotate(362deg);
-      -moz-transform: rotate(362deg);
-      -ms-transform: rotate(362deg);
-      -o-transform: rotate(362deg);
-      transform: rotate(362deg); }
-    .header .header-blue_block .menu-list li {
-      float: left;
-      list-style: none;
-      margin-left: 7px; }
-  .header .header-logo {
-    position: absolute;
-    left: 100px;
-    top: -2em;
-    max-width: 295px;
-    height: 158px;
-    background-color: #e1ecf2;
-    z-index: 1;
-    color: RGB(42, 160, 200);
-    border: 6px solid white;
-    -webkit-border-radius: 25px;
-    border-radius: 25px;
-    -moz-transform: rotate(356deg);
-    -ms-transform: rotate(356deg);
-    -o-transform: rotate(356deg);
-    transform: rotate(356deg); }
-    .header .header-logo .header-logo-text {
-      position: relative;
-      top: 3em;
-      left: 1em;
+    top: 3em;
+    left: 1em;
+    z-index: 3; }
+    .header-logo .header-logo-text h1 {
+      font-size: 2em;
       z-index: 3; }
-      .header .header-logo .header-logo-text h1 {
-        font-size: 2em;
-        z-index: 3; }
 
 .airplane {
-  position: absolute;
-  top: 14%;
-  height: 590px;
-  background-repeat: no-repeat;
-  width: 100%; }
+  width: 100%;
+  height: 100%; }
   .airplane .airplane-cloud {
     background-image: url("../img/cloud-header.png");
     background-repeat: no-repeat;
-    background-position: 20% 0%;
+    background-position: 24% 4%;
     width: 100%;
     height: 100%; }
     .airplane .airplane-cloud .airplane-img {
-      display: block;
       float: left;
       background-image: url(../img/airplane.png);
       background-repeat: no-repeat;
-      background-position: 1% 6%;
-      width: 32%;
+      background-position: 5% 6%;
+      width: 100%;
       height: 100%; }
     .airplane .airplane-cloud .airplane-text {
-      float: left;
       position: relative;
-      top: 20%; }
+      display: block;
+      float: left;
+      left: -2%;
+      top: -10%; }
       .airplane .airplane-cloud .airplane-text h1 {
-        font-size: 50px; }
+        font-size: 61px;
+        font-family: 'Permanent Marker';
+        line-height: 50px;
+        color: #127EA5; }
+      .airplane .airplane-cloud .airplane-text h4 {
+        margin-top: 10px;
+        color: #DED90E;
+        text-align: center;
+        line-height: 30px; }
+
+.booking-board {
+  float: right;
+  width: 308px;
+  height: 530px;
+  -webkit-border-radius: 17px;
+  border-radius: 17px;
+  border: 6px solid #7ebee0; }
 
 /*# sourceMappingURL=style.css.map */

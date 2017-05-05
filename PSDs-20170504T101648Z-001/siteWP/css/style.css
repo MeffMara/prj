@@ -1,0 +1,100 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+body {
+	max-width: 1600px;
+	
+}
+.conteiner{
+	background-color: #2C3E50;
+	min-width: 1148px;
+	
+}
+.header{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 89px;
+	margin: 0 14% 0 14% ;
+}
+.header-logo{
+	// display: block;
+	position: absolute;
+	top: 20%;
+	// position: absolute;
+	width: 110px;
+	height: 55px;
+}
+.header-logo-pict{
+	float: left;
+	
+	width: 55px;
+	height: 55px;	
+}
+.red-block{
+	position: absolute;
+	width: 48px;
+	height: 48px;
+	background-color: #ff4848;
+	-webkit-box-shadow: 3px 3px 3px #FF4848;
+	        box-shadow: 3px 3px 3px #FF4848;
+}
+
+.gray-block{
+	position: absolute;
+	top: 5px;
+	left: 4px;
+	width: 48px;
+	height: 48px;
+	background-color: #2C3E50;
+	-webkit-box-shadow: 3px 3px 3px  black;
+	        box-shadow: 3px 3px 3px  black;
+}
+
+.header-logo-text{
+	float: left;
+	margin-left: 6px;
+	line-height: 55px;
+}
+p.logo-text{
+	float: left;
+	font-family: 'Roboto Bold', bold;
+	font-size: 25px;
+	color: #FFF;
+}
+
+span.logo-span{
+	float: left;
+	font-family: 'Roboto Bold', bold;
+	font-size: 36px;
+	color: #FF4848;
+}
+
+.header-menu{
+	position: absolute;
+	top: 50%;
+	width: 53%;
+	height: 55px;
+	
+
+}
+ul.header-menu li{
+	float: left;
+	list-style: none;
+	
+	
+	
+}
+
+.header-menu li a{
+	font-family: 'Roboto Regular', arial;
+	font-size: 18px;
+	color: #FFF;
+	text-decoration: none;
+	text-transform: uppercase;
+}
